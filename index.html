@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lena LALAOUI</title>
+	<link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+
+<body>
+	<header id="header">
+        <div class="header-controls">
+			<button id="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+			<button id="toggle-theme" aria-label="Changer de mode">🌙</button>
+		</div>
+
+        <nav id="navbar" class="row" aria-label="Navigation principale">
+            <a class="col-lg-2 col-md-2 col-12" aria-current="page">
+				<img src="images/moi.png" alt="Logo de Lena LALAOUI" id="logo">
+				<b>Lena LALAOUI</b>
+			</a>
+            <a href="#accueil" class="col-lg-1 col-md-1 col-6" data-text="Accueil">Accueil</a>
+            <a href="#formation" class="col-lg-2 col-md-2 col-6" data-text="Formations">Formation</a>
+            <a href="#skills" class="col-lg-2 col-md-2 col-6" data-text="Compétences">Compétences</a>
+            <a href="#projets" class="col-lg-1 col-md-1 col-6" data-text="Projets">Projets</a>
+            <a href="#contact" class="col-lg-1 col-md-1 col-6" data-text="Contact">Contact</a>
+        </nav>
+    </header>
+
+	
+
+	<div class="container">
+		<main>
+			<section id="accueil" class="block col-lg-10 col-md-10 col-10">
+				<img src="images/moi.png" id="moi">
+				<h1> Bonjour, Je m'appelle Lena  </h1>
+				<h3 id="welcome-text"> Ravie de vous rencontrer !</h3>
+								
+			</section>
+
+			<div class="block" id="presentation">
+				<h2>Présentation</h2>
+				
+				<p>Étudiante en deuxième année de licence d'informatique à Sorbonne Université, je recherche un stage d'au moins trois mois à partir de mars 2025, avec possibilité d'évolution en alternance pour 2025/2026. Passionnée par les défis techniques et l'innovation, je puise ma motivation dans le travail en équipe et les projets à impact concret.<br><br>
+
+					C'est en classe préparatoire que j'ai découvert l'informatique, en explorant l'algorithmique et la programmation avec MATLAB, alliant mes affinités pour les mathématiques et l'électronique. Depuis, j'ai élargi mes compétences et je suis prête à contribuer activement à des projets innovants. Ce portfolio reflète mes réalisations et ma vision pour l'avenir.
+				</p>
+				<a href="images/cv.pdf" target="_blank">
+					<button id="cv" >Téléchargez mon CV !</button>
+				</a>
+			</div>
+
+
+			<div class="block" id="formation">
+
+				<h2>Formation</h2>
+				<ul>
+
+					<li>
+						<strong>Deuxième année de licence en informatique DANT </strong> <br>
+						Sorbonne Université, Paris, France <br>
+						<span>2024- Présent</span>
+					</li>
+
+
+					<li>
+						<strong>Première année de licence en Sciences Formelles</strong> <br>
+						Sorbonne Université, Paris, France <br>
+						<span>2023 - 2024</span>
+					</li>
+
+					<li>
+						<strong>Classe Préparatoire en Sciences et Technologies </strong> <br>
+						École Nationale Polytechnique, Constantine, Algérie <br>
+						<span>2022 - 2023</span>
+					</li>
+
+					<li>
+						<strong>Baccalauréat série Mathématiques</strong> <br>
+						Lycée Les Oliviers, Béjaia, Algérie <br>
+						<span>2022</span>
+					</li>
+
+				</ul>
+			</div>
+
+
+			<div class="block" id="skills">
+				<section class="about__skills">
+					<h3 class="about__subheader--small"> Compétences </h3>
+					<div class="about__wrapper--accordion">
+				
+						<!-- Technical Skills Section -->
+						<div class="accordion">
+							<h3 class="accordion-heading">
+								<button class="accordion-button" aria-expanded="false" aria-controls="technical-skills"> 	Techniques 
+									<span class="accordion-arrow">&#9660;</span> <!-- Flèche vers le bas -->
+								</button>
+							</h3>
+							<div id="technical-skills" class="accordion-content" hidden>
+								<div class="skills">
+									<div class="skill">
+										<img src="images/html.png" alt="HTML icon">
+										<span class="skill-name">HTML</span>
+										<p class="skill-description">Langage de balisage utilisé pour structurer le contenu des pages web.</p>
+									</div>
+
+									<div class="skill">
+										<img src="images/css.png" alt="CSS icon">
+										<span class="skill-name">CSS</span>
+										<p class="skill-description">Langage de style permettant de définir l'apparence des pages web.</p>
+									</div>
+									
+									<div class="skill">
+										<img src="images/javascript.png" alt="JavaScript icon">
+										<span class="skill-name">JavaScript</span>
+										<p class="skill-description">Langage de programmation pour rendre les pages web interactives.</p>
+									</div>
+									
+									<div class="skill">
+										<img src="images/java.png" alt="Java icon">
+										<span class="skill-name">Java</span>
+										<p class="skill-description">Langage de programmation orienté objet largement utilisé dans les applications d'entreprise.</p>
+									</div>
+									
+									<div class="skill">
+										<img src="images/python.png" alt="Python icon">
+										<span class="skill-name">Python</span>
+										<p class="skill-description">Langage de programmation polyvalent utilisé pour le développement web, les scripts, et l'intelligence artificielle.</p>
+									</div>
+									
+									<div class="skill">
+										<img src="images/c.png" alt="C icon">
+										<span class="skill-name">C</span>
+										<p class="skill-description">Langage de programmation bas niveau, utilisé pour les systèmes et le développement de logiciels à haute performance.</p>
+									</div>
+									
+									<div class="skill">
+										<img src="images/ocaml.png" alt="OCaml icon">
+										<span class="skill-name">OCaml</span>
+										<p class="skill-description">Langage de programmation fonctionnel, souvent utilisé pour les applications académiques et la recherche.</p>
+									</div>
+									
+									<div class="skill">
+										<img src="images/bash.png" alt="Bash icon">
+										<span class="skill-name">Bash</span>
+										<p class="skill-description">Interpréteur de commandes, utilisé pour l'automatisation de tâches dans des environnements Unix-like.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+				
+						<!-- Tools Section -->
+						<div class="accordion">
+							<h3 class="accordion-heading">
+								<button class="accordion-button" aria-expanded="false" aria-controls="tools-skills"> 
+									Outils
+								    <span class="accordion-arrow">&#9660;</span> <!-- Flèche vers le bas -->
+								 </button>
+							</h3>
+							<div id="tools-skills" class="accordion-content" hidden>
+								<div class="skills">
+									<div class="skill">
+										<img src="images/github.png" alt="GitHub icon">
+										<span class="skill-name">GitHub</span>
+										<p class="skill-description">Plateforme de gestion de version pour le code source et de collaboration en développement logiciel.</p>
+									</div>
+
+									<div class="skill">
+										<img src="images/vscode.png" alt="VS Code icon">
+										<span class="skill-name">VS Code</span>
+										<p class="skill-description">Éditeur de code populaire avec de nombreuses extensions pour le développement web et logiciel.</p>
+									</div>
+
+									<div class="skill">
+										<img src="images/canva.png" alt="Canva icon">
+										<span class="skill-name">Canva</span>
+										<p class="skill-description">Outil en ligne de design graphique permettant de créer facilement des visuels professionnels.</p>
+									</div>
+
+									<div class="skill">
+										<img src="images/jupyterNotebook.png" alt="Jupyter NoteBook icon">
+										<span class="skill-name">jupyter Notebook</span>
+										<p class="skill-description">Outil interactif pour exécuter, documenter et partager du code avec visualisations et analyses.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<!-- Soft Skills Section -->
+						<div class="accordion">
+							<h3 class="accordion-heading">
+								<button class="accordion-button" aria-expanded="false" aria-controls="soft-skills"> 
+									Personnelles 
+									<span class="accordion-arrow">&#9660;</span> <!-- Flèche vers le bas -->
+								</button>
+							</h3>
+							<div id="soft-skills" class="accordion-content" hidden>
+								<ul class="about__list about__list--soft-skills">
+									<li>🧠<p class="about__text">Esprit analytique</p></li>
+									<li>🛠️<p class="about__text">Résolution de problèmes</p></li>
+									<li>🧭<p class="about__text">Autonomie</p></li>
+									<li>🔍<p class="about__text">Curiosité</p></li>
+									<li>💬<p class="about__text">Communication</p></li>
+									<li>👯‍♀️<p class="about__text">Collaboration</p></li>
+									<li>🚀<p class="about__text">Apprentissage rapide</p></li>
+									<li>😌<p class="about__text">Gestion du stress</p></li>
+
+								</ul>
+							</div>
+						</div>
+				
+					</div>
+				</section>
+			</div>
+			
+
+
+			<div class="block" id="projets">
+
+				<h2>Mes Projets</h2>
+				<div class="project-gallery">
+
+					<div class="project" data-link="https://github.com/lenalw/Automates">
+						<img src="images/auto.jpg" alt="automates">
+						<h3 class="project-title" >Projet Automates</h3>
+						<div class="project-description">
+							<p>Étude des automates finis et languages : création, déterminisation, opérations</p>
+							<p  class="cursif"> Environnement technique Python, Jupyter NoteBook, JFLAP, Graphviz </p>
+						</div>
+					</div>
+
+					<div class="project" data-link="https://github.com/lenalw/Ecosysteme">
+						<img src="images/eco.jpg" alt="Ecosysteme">
+						<h3 class="project-title" >Projet Écosystème</h3>
+						<div class="project-description">
+							<p>Simulation d'un écosystème "Proies-Prédateurs" en manipulant des structures de données et fichiers</p>
+							<p  class="cursif"> Environnement technique C, Visual Studio Code </p>						
+						</div>
+					</div>
+
+					<div class="project" data-link="https://github.com/are-dynamic-2024-g4/nyctinastie-lotus">
+						<img src="images/lotus.jpg" alt="Nyctinastie">
+						<h3 class="project-title"> Exploration de la Nyctinastie chez le Lotus Sacré</h3>
+						<div class="project-description">
+							<p>Analyse des mouvements nyctinastiques du Lotus Sacré avec modèles prédictifs et étude des facteurs environnementaux..</p>
+							<p  class="cursif">  Environnement technique Python (Matplotlib, Numpy, Turtle), Jupyter Notebook, Github </p>											
+						</div>
+					</div>
+
+					<div class="project" data-link="https://github.com/lenalw/Projet-numerique-Gravitation-et-orbite">
+						<img src="images/orb.jpg" alt="Gravitation">
+						<h3 class="project-title">Projet Numérique : Gravitation et orbites</h3>
+						<div class="project-description">
+							<p>Modélisation orbitale et gravitationnelle basée sur des lois physiques</p>
+							<p  class="cursif"> Environnement technique Python (Matplotlib, Numpy), Jupyter Notebook</p>											
+						</div>
+			
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="block" id="contact">
+				<h2>Contactez moi</h2>
+				<form id="formContact"> <!-- Début du formulaire avec un identifiant unique -->
+					<label for="nom">Nom:</label> <!-- Champ pour le nom -->
+					<input type="text" id="nom" name="nom" required placeholder="Votre nom"><br><br> <!-- Champ de saisie pour le nom -->
+
+					<label for="email">Email:</label> <!-- Champ pour l'email -->
+					<input type="email" id="email" name="email" required placeholder="Votre adresse email" title="Veuillez entrer une adresse email valide"><br><br> <!-- Champ pour l'adresse email -->
+
+					<label for="message">Message:</label> <!-- Champ pour le message -->
+					<textarea id="message" name="message" rows="5" required placeholder="Votre message ici..."></textarea><br><br> <!-- Zone de texte pour saisir un message -->
+
+					<button type="submit">Envoyer</button> <!-- Bouton pour soumettre le formulaire -->
+					<button type="reset">Réinitialiser</button> <!-- Bouton pour réinitialiser le formulaire -->
+				</form>
+			</div>
+		</main>
+	</div>
+</body>
+
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Lena Laloui. Tous droits réservés.</p>
+
+		<nav class="footer-nav">
+            <a href="#accueil">Accueil</a>
+            <a href="#formation">Formation</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/lena-lalaoui" target="_blank">
+				<img src="images/linkedin.png" alt="Linkedin icon">
+				LinkedIn
+			</a>
+            <a href="https://github.com/lenalw" target="_blank">
+				<img src="images/github.png" alt="Linkedin icon">
+				GitHub
+			</a>
+            <a href="mailto:lalouilena@gmail.com">
+				<img src="images/mail.png" alt="Linkedin icon">
+				Email
+			</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="script/script.js"></script> 
+<script src="script/bootstrap.js"></script>
+
+
+</html>
+
